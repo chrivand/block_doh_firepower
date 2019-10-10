@@ -30,7 +30,7 @@ pip install -r requirements.txt
 python3.6 doh_ip_resolving.py
 ```
 
-7. Optionally you can let this script run periodically, by setting *"SERVICE"* to *true* in the **config.json** file. In line 244 of the **doh_ip_resolving.py** the time-period is set, per default it is set to an hour (Microsoft recommends you check the version daily, or at the most, hourly):
+7. Optionally you can let this script run periodically, by setting *"SERVICE"* to *true* in the **config_file.json** file. In line 244 of the **doh_ip_resolving.py** the time-period is set, per default it is set to an hour (Microsoft recommends you check the version daily, or at the most, hourly):
 
 ```
 intervalScheduler(WebServiceParser, 3600) #set to 1 hour
