@@ -1,7 +1,7 @@
 {
-    "FMC_IP": "<type-IP/Domain-of-FMC-address-here>",
-    "FMC_USER": "<type-User-of-FMC-address-here>",
-    "FMC_PASS": "<type-Password-of-FMC-address-here>",
+    "FMC_IP": "",
+    "FMC_USER": "",
+    "FMC_PASS": "",
     "DoH_UUID": "",
     "SERVICE": false,
     "SSL_VERIFY": false,
