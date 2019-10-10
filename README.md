@@ -1,8 +1,8 @@
-# Block known DNS over HTTPS servers with Cisco Firepower Threat Defense
+# Block known DNS over HTTPS (DoH) servers with Cisco Firepower Threat Defense
 
 **THIS IS A SAMPLE PROOF OF CONCEPT SCRIPT**
 
-Pulls DoH domains and resolves them to IP addresses. Then it creates a Network Group Object in Firepower to be blocked (or something else).
+Pulls DoH domains and resolves them to IP addresses. Then it creates a Network Group Object in Firepower to be blocked (or something else). This can be used to block DoH and enforce Umbrella. More information an that can be found on the following link: https://support.umbrella.com/hc/en-us/articles/230904088-Preventing-Circumvention-of-Cisco-Umbrella-with-Firewall-Rules
 
 Please contact me, Christopher Van Der Made <chrivand@cisco.com>, if you have any questions or remarks. If you find any bugs, please report them to me, and I will correct them (or do a pull request).
 
@@ -38,4 +38,7 @@ intervalScheduler(WebServiceParser, 3600) #set to 1 hour
 
 8. Finally, if you want to automatically deploy the policies, you can set *"AUTO_DEPLOY"* to *true* in the **config_file.json** file. **Be very careful with this, as unfinished policies might be deployed by doing so.**
 
-More detailed instructions will follow.
+This can be an example of a policy in FMC:
+
+![Networkobjects](screenshot_fmc.png)
+
