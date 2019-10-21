@@ -10,7 +10,7 @@ Please contact me, Christopher Van Der Made <chrivand@cisco.com>, if you have an
 
 These instructions will enable you to download the script and run it, so that the output can be used in Firepower as Group Objects. What do you need to get started? Please find a list of tasks below:
 
-1. You need the IP address (or domain name) of the FMC, the username and password. These will be requested by the script the first time it is run. It is recommended to create a separate FMC login account for API usage, otherwise the admin will be logged out during every API calls. Add the IP/Domain of FMC, the username and password to the config.json file. If you do not add anything, you will be promted to fill this in when executing the script. 
+1. You need the IP address (or domain name) of the FMC, the username and password. These will be requested by the script the first time it is run. It is recommended to create a separate FMC login account for API usage, otherwise the admin will be logged out during every API calls. Add the IP/Domain of FMC, the username and password to the config.json file. 
 
 2. In the FMC, go to System > Configuration > REST API Preferences to make sure that the REST API is enabled on the FMC.
 
