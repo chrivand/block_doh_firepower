@@ -1,3 +1,5 @@
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/chrivand/block_doh_firepower)
+
 # Block known DNS over HTTPS (DoH) servers with Cisco Firepower Threat Defense
 
 **THIS IS A SAMPLE PROOF OF CONCEPT SCRIPT**
