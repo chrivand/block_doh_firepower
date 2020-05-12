@@ -4,7 +4,7 @@
 
 **THIS IS A SAMPLE PROOF OF CONCEPT SCRIPT**
 
-Pulls DoH domains and resolves them to IP addresses. Then it creates a Network Group Object in Firepower to be blocked (or something else). This can be used to block DoH and enforce Umbrella. More information an that can be found on the following link: https://support.umbrella.com/hc/en-us/articles/230904088-Preventing-Circumvention-of-Cisco-Umbrella-with-Firewall-Rules
+Pulls DoH domains and resolves them to IP addresses (from: https://github.com/curl/curl/wiki/DNS-over-HTTPS). Then it creates a Network Group Object in Firepower to be blocked (or something else). This can be used to block DoH and enforce Umbrella. More information an that can be found on the following link: https://support.umbrella.com/hc/en-us/articles/230904088-Preventing-Circumvention-of-Cisco-Umbrella-with-Firewall-Rules
 
 Please contact me, Christopher Van Der Made <chrivand@cisco.com>, if you have any questions or remarks. If you find any bugs, please report them to me, and I will correct them (or do a pull request).
 
